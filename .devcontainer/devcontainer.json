@@ -13,7 +13,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-	"postCreateCommand": "lua -v && neofetch"
+	// "postCreateCommand": "lua -v && neofetch"
 
 	// Replace when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--init", "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
