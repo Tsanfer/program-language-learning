@@ -125,7 +125,7 @@ print(status)
   面向对象
 ]]
 --创建一个类，表示四边形
-local RectAngle = { length, width, area } --声明类名和类成员变量
+local RectAngle = {}
 -- 基础类方法 new
 function RectAngle:new(length, width) --声明新建实例的New方法
   -- local o = {
