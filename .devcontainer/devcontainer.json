@@ -24,7 +24,9 @@
 				"ms-python.vscode-pylance",
 				"ms-python.python",
 				"foxundermoon.shell-format",
-				"timonwong.shellcheck"
+				"timonwong.shellcheck",
+				"tomblind.local-lua-debugger-vscode",
+				"liwangqian.luacoderassist"
 			]
 		}
 	},
