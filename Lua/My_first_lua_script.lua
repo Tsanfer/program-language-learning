@@ -3,8 +3,9 @@
   多行注释
   多行注释
 ]]
-if os.getenv("LOCAL_LUA_DEBUGGER_VSCODE") == "1" then
-  require("lldebugger").start()
+-- debug 检测配置
+if os.getenv('LOCAL_LUA_DEBUGGER_VSCODE') == '1' then
+    require('lldebugger').start()
 end
 
 print('a' .. 'b') -- 字符串连接
@@ -109,10 +110,6 @@ end
 local test_file = 'test.tmp'
 local test_table = {'WHO', 'AM', 'I'}
 WriteTableToFile(test_file, test_table)
-
-for i = 1, 10 do
-  print(i)
-end
 
 -- 错误处理
 -- assert首先检查第一个参数，若没问题，assert不做任何事情；
