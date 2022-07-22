@@ -139,20 +139,13 @@ add(1, 2)
 local RectAngle = {}
 -- 基础类方法 new
 function RectAngle:new(length, width) --声明新建实例的New方法
-    -- local o = {
-    --   --设定各个项的值
-    --   self.length = len or 0,
-    --   self.width = wid or 0,
-    --   self.area = len * wid
-    -- }
-    -- setmetatable(o, { __index = self }) --将自身的表映射到新new出来的表中
-    local o = {}
-    setmetatable(o, self)
+    local t = {}
+    setmetatable(t, self)
     self.__index = self
-    self.length = length or 0
-    self.width = width or 0
-    self.area = length * width
-    return o
+    t.length = length or 0
+    t.width = width or 0
+    t.area = length * width
+    return t
 end
 
 -- 获取表内信息的方法
