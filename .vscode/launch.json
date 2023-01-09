@@ -28,7 +28,7 @@
         "command": "lua"
       },
       "args": [
-        "${workspaceFolder}/Lua/My_first_lua_script.lua"
+        "${workspaceFolder}/Lua/My-first-lua-script.lua"
       ]
     }
   ]
